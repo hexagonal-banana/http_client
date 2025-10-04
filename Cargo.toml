@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+trust-dns-resolver = "0.23"
+tokio = { version = "1.0", features = ["full"] }
+http = "0.2"
